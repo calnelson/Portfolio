@@ -5,18 +5,28 @@
         background-color: #34a8dd;
         /* height: 25vh;  */
         color:white;
+        background-image: url(Stoney_2.jpg);
         
     }
 
     .header-text {
-
+        font-family: anurati; 
         font-size: 35px; 
         width: 200px; 
         padding-top: 100px;
-        padding-bottom: 100px; 
+        padding-bottom: 30px; 
         padding-left: 35vw; 
     
 
+    }
+
+    .header-logo {
+        /* display:none;  */
+        height: 100px;
+        width: 100px; 
+        padding-left: 210px;
+        align-content: center;
+        padding-bottom: 50px;
     }
 
     section {
@@ -26,24 +36,31 @@
          
     }
 
+    p {
+
+        background-color: #061D07;
+        color: white; 
+        border-radius: 10px;
+    }
+
     article {
         padding-bottom: 20%;
     }
 
     .title-1{
 
-        border-top: 25px solid #34a8dd;
-        padding: 20px; 
+        border: 25px solid #0C380E;
+        padding: 10px; 
     
     }
     .title-2 {
-        border-top: 25px solid #f46830;
+        border: 25px solid #0A2A0A;
     
     }
     
     .title-3 {
     
-        border-top: 25px solid #2dcec0;
+        border: 25px solid #0C380E;
     
     }
 }
@@ -69,16 +86,17 @@ img {
 
 header {
     background-image: url(Stoney_2.jpg);
-    background-color: #2DCEC0;
+    background-color: grey;
     color: white; 
-    height: 50vh; 
+    height: 60vh; 
 }
 
 .header-text {
 
-    font-size: 50px; 
-    padding: 10%; 
-    font-family: Arial, Helvetica, sans-serif
+    font-size: 75px; 
+    /* padding: 10%;  */
+    padding-top: 150px;
+    font-family: anurati;
     
 }
 

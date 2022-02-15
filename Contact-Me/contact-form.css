@@ -1,25 +1,28 @@
-body {
-   
-    /* This defines the number of horizontal columns and how wide they all are */
-  grid-template-columns: 40px 50px auto 50px 40px;
-  /* This determines the number of verticle rows and their respective heights */
-  grid-template-rows: 25% 100px auto;
-    
-}
 
-header {
-    grid-row: 1;
-    grid-column: 2/3;
+    
+
+.form-section {
+    display: flex;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
     margin: 50px;
 
 }
 
-form {
 
+.grid-1 {
+    border: 1px solid black;
+   s
+
+    
+}
+
+form {
+    grid-row: 1/2;
     text-align: center;
-    grid-column: 2/3;
-    grid-row: 2;
+
     border: 1px solid black;
     height: 500px;
     
 }
+
